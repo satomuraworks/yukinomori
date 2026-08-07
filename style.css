@@ -136,7 +136,8 @@ img {
 
 .hero-visual {
   position: relative;
-  width: min(100%, 560px);
+  width: calc(100vw - 36px);
+  max-width: 560px;
   margin: 26px auto 22px;
   overflow: hidden;
   border: 1px solid rgba(219, 231, 235, 0.92);
@@ -145,9 +146,9 @@ img {
 }
 
 .hero-key-visual {
+  display: block;
   width: 100%;
-  aspect-ratio: 4961 / 3508;
-  object-fit: cover;
+  height: auto;
 }
 
 .button-row {
