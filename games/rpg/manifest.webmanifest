@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "ゆきのもりRPG",
+  "short_name": "ゆきのもり",
+  "description": "ゆきと森を歩き、さとゆきとお話しする3D探索ゲーム。",
+  "lang": "ja",
+  "start_url": "./play.html?source=homescreen",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e4f1f5",
+  "theme_color": "#e4f1f5",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
